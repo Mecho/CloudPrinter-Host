@@ -72,7 +72,7 @@
 
 ###### **部署步骤**
 
-1. 联系作者QQ：1554655360（备注：自助打印机）（部署用户端小程序、云服务器及腾讯云COS）我会耐心帮助你的哦~
+1. 部署用户端小程序、云服务器及腾讯云COS（联系作者QQ：1554655360 备注：自助打印机 我会耐心帮助你的哦~）
 2. 下载或克隆本仓库
 ```sh
 git clone https://github.com/Mecho/CloudPrinter-Host.git
@@ -87,7 +87,8 @@ pip install wmi        //用于获取主机序列号与后端服务器鉴权
 pip install PyQt5      //用于窗体展示打印状态
 ```
 4. 打开config.txt 将第一个1改为自己主机ID（第一步的时候我会告诉你如何填写）
-5. 打开printer.py
+5. 打开printer.py 找到173行修改扫描器的串口参数
+6. 运行！
 
 
 
@@ -167,16 +168,16 @@ xxx@xxxx
 - [xxxxxxxxxxxxxx](https://connoratherton.com/loaders)
 
 <!-- links -->
-[your-project-path]:shaojintian/Best_README_template
-[contributors-shield]: https://img.shields.io/github/contributors/shaojintian/Best_README_template.svg?style=flat-square
+[your-project-path]:Mecho/CloudPrinter-Host
+[contributors-shield]: https://img.shields.io/github/contributors/Mecho/CloudPrinter-Host.svg?style=flat-square
 [contributors-url]: https://github.com/Mecho/CloudPrinter-Host/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/shaojintian/Best_README_template.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/Mecho/CloudPrinter-Host.svg?style=flat-square
 [forks-url]: https://github.com/Mecho/CloudPrinter-Host/network/members
-[stars-shield]: https://img.shields.io/github/stars/shaojintian/Best_README_template.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/Mecho/CloudPrinter-Host.svg?style=flat-square
 [stars-url]: https://github.com/Mecho/CloudPrinter-Host/stargazers
-[issues-shield]: https://img.shields.io/github/issues/shaojintian/Best_README_template.svg?style=flat-square
-[issues-url]: https://img.shields.io/github/issues/shaojintian/Best_README_template.svg
-[license-shield]: https://img.shields.io/github/license/shaojintian/Best_README_template.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/Mecho/CloudPrinter-Host.svg?style=flat-square
+[issues-url]: https://img.shields.io/github/issues/Mecho/CloudPrinter-Host.svg
+[license-shield]: https://img.shields.io/github/license/Mecho/CloudPrinter-Host.svg?style=flat-square
 [license-url]: https://github.com/Mecho/CloudPrinter-Host/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/shaojintian
