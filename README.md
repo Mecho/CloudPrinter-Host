@@ -18,9 +18,8 @@
 
 <p align="center">
   <a href="https://github.com/Mecho/CloudPrinter-Host/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://www.lssyes.com/Chevereto/images/2022/03/22/LOGOa2cafabd4a31a95b.png" alt="Logo" width="80">
   </a>
-
   <h3 align="center">简单配置的自助打印机</h3>
   <p align="center">
     使用本项目配置属于你的可收费的云自助打印机
@@ -28,7 +27,7 @@
     <a href="https://github.com/Mecho/CloudPrinter-Host"><strong>探索本项目的文档 »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Mecho/CloudPrinter-Host">查看Demo</a>
+    <a href="https://github.com/Mecho/CloudPrinter-Host">查看项目</a>
     ·
     <a href="https://github.com/Mecho/CloudPrinter-Host/issues">报告Bug</a>
     ·
@@ -45,14 +44,9 @@
   - [部署前的准备](#部署前的准备)
   - [部署步骤](#部署步骤)
 - [文件目录说明](#文件目录说明)
-- [开发的架构](#开发的架构)
-- [部署](#部署)
-- [使用到的框架](#使用到的框架)
-- [贡献者](#贡献者)
-  - [如何参与开源项目](#如何参与开源项目)
+- [如何参与开源项目](#如何参与开源项目)
 - [版本控制](#版本控制)
 - [作者](#作者)
-- [鸣谢](#鸣谢)
 
 ### 上手指南
 
@@ -70,7 +64,7 @@
 6. 腾讯云COS（用于存储用户上传的文件，没有也可以，联系作者直接用作者部署好的）
 7. 一个善于思考的脑袋瓜子（瓜子🌻好吃）
 
-###### **部署步骤**
+###### 部署步骤
 
 1. 部署用户端小程序、云服务器及腾讯云COS（联系作者QQ：1554655360 备注：自助打印机 我会耐心帮助你的哦~）
 2. 下载或克隆本仓库
@@ -90,54 +84,28 @@ pip install PyQt5      //用于窗体展示打印状态
 5. 打开printer.py 找到173行修改扫描器的串口参数
 6. 运行！
 
-
-
-
-
 ### 文件目录说明
 eg:
 
 ```
 文件树
-├── LICENSE.txt //GPL3.0开源协议
+├── LICENSE.txt //GPL-3.0开源协议
 ├── README.md   //指南
 ├── config.txt  //简单配置文件
 ├── database.db //任务存储数据库
 └── printer.py  //源程序
 ```
 
-
-
-
-
-### 开发的架构 
-
-请阅读[ARCHITECTURE.md](https://github.com/Mecho/CloudPrinter-Host/blob/master/ARCHITECTURE.md) 查阅为该项目的架构。
-
-### 部署
-
-暂无
-
-### 使用到的框架
-
-- [xxxxxxx](https://getbootstrap.com)
-- [xxxxxxx](https://jquery.com)
-- [xxxxxxx](https://laravel.com)
-
-### 贡献者
-
-请阅读**CONTRIBUTING.md** 查阅为该项目做出贡献的开发者。
-
-#### 如何参与开源项目
+### 如何参与开源项目
 
 贡献使开源社区成为一个学习、激励和创造的绝佳场所。你所作的任何贡献都是**非常感谢**的。
 
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Fork 这个项目
+2. 创建你的特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交你的代码 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到你的特性分支 (`git push origin feature/AmazingFeature`)
+5. Pull Request给我❤❤❤❤❤❤
 
 
 
@@ -147,25 +115,15 @@ eg:
 
 ### 作者
 
-xxx@xxxx
+Mecho
 
-知乎:xxxx  &ensp; qq:xxxxxx    
+知乎:Mecho  &ensp; QQ:1554655360 &ensp; Email:i@mecho.cc
 
- *您也可以在贡献者名单中参看所有参与该项目的开发者。*
 
 ### 版权说明
 
-该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/Mecho/CloudPrinter-Host/blob/master/LICENSE.txt)
+该项目签署了GPL-3.0授权许可，详情请参阅 [LICENSE](https://github.com/Mecho/CloudPrinter-Host/blob/main/LICENSE)
 
-### 鸣谢
-
-
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Img Shields](https://shields.io)
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Pages](https://pages.github.com)
-- [Animate.css](https://daneden.github.io/animate.css)
-- [xxxxxxxxxxxxxx](https://connoratherton.com/loaders)
 
 <!-- links -->
 [your-project-path]:Mecho/CloudPrinter-Host
@@ -179,9 +137,6 @@ xxx@xxxx
 [issues-url]: https://img.shields.io/github/issues/Mecho/CloudPrinter-Host.svg
 [license-shield]: https://img.shields.io/github/license/Mecho/CloudPrinter-Host.svg?style=flat-square
 [license-url]: https://github.com/Mecho/CloudPrinter-Host/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/shaojintian
-
 
 
 
